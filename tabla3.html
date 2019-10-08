@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>tabla3</title>
+<style>
+table{
+	border-collapse;
+	caption-side:bottom;
+}
+caption{
+	font-weight:bold;
+	margin-top:28px;
+}
+th,td{
+	padding:5px 10px;
+}
+td,th{border:1px solid #1c1c1c;text-align:center;
+	}
+</style>
+</head>
+<body>
+<caption>Tabla con combinacion de filas y columnas</caption>
+<table>
+<tr>
+<th>celda 1</th>
+<th>celda 2</th>
+<th>celda 3</th>
+<th>celda 4</th>
+</tr>
+
+<tr>
+<td rowspan="3">celda 5</td>
+<td>celda 6</td>
+<td colspan="2">celda 7</td>
+</tr>
+
+<tr>
+<td>celda 8</td>
+<td>celda 9</td>
+<td rowspan="2">celda 10</td>
+</tr>
+<tr>
+<td colspan="2">celda 11</td>
+</tr>
+</table>
+</body>
+</html>
