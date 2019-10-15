@@ -1,0 +1,22 @@
+﻿/*las filas pares: background-color:teal
+color:lime
+las filas impares: background-color:red
+color:white
+la tabla tiene un ancho de 600px (width:600px)
+el tamaño de fuente de cada celda es 30 px(font-size:30px)*/
+.impar{
+	background-color: #800000;
+	color: white;
+	font-size: 30px;
+}
+.par{
+	background-color:teal;
+	color:lime;
+	font-size:30px;
+}
+table{
+	width: 600px;
+	border: 1px solid;
+	color: #800000;
+	text-align: center;
+}

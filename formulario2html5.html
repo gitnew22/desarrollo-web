@@ -7,7 +7,42 @@
 </head>
 
 <body>
-
+<form>
+<fieldset>
+<legend>¿Quien eres?</legend>
+ Nombre * <input type="text" maxlength="50" name="nombre" required="required" placeholder="José" />
+ Apellidos * <input type="text" maxlength="50" name="apellidos" required="required"  placeholder="García"/><br/>
+ Correo electrónico * <input type="email" required="required" placeholder="jose@garcia.com"/>
+ Fecha de nacimiento <input type="date"/>
+</fieldset>
+<fieldset>
+<legend>¿De dónde eres?</legend>
+Ciudad <input type="text" maxlength="50" name="nombre" placeholder="TuCiudad" /><br/>
+Código postal <input type="number" min="5" max="5" placeholder="0000"/><br/>
+Provincia
+<select name="Población">
+<option value="1">Asturias</option>
+<option value="2">Cantabria</option>
+<option value="3">País Vasco</option>
+<option value="4">Navarra</option>
+</select>
+</fieldset>
+<fieldset>
+<legend>¿Cómo quieres iniciar sesión?</legend>
+Nombre de usuario * <input type="text" maxlength="50" name="nombre"/><br/>
+Contraseña * <input type="password" maxlength="50" name="contraseña"/><br/>
+Repetir contraseña * <input type="password" maxlength="50" name="contraseña"/><br/>
+</fieldset>
+<fieldset>
+<legend>Condiciones de registro</legend><br/>
+Deseo recibir ofertas de iDESWEB 
+<input type="radio" name="ofertas" value="dia" checked="checked"/>Una vez al día
+<input type="radio" name="ofertas" value="semana"/>Una vez a la semana
+<input type="radio" name="ofertas" value="mes"/>Una vez al mes<br/><br/>
+<input type="checkbox" name="acepto" value="acuerdos"/>Acepto el acuerdo de servicios, 
+la declaración de privacidad y la declaración de uso de cookies
+</fieldset>
+</form>
 </body>
 
 </html>

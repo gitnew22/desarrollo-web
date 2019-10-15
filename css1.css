@@ -1,0 +1,34 @@
+﻿
+/*ordena a todos los elementos de la página*/
+*{
+font:1em/1.3 Arial, Helvetica, sans-serif;
+}
+/*ordena todos los parrafos de la pagina*/
+p{
+	color:#555;
+}
+/*ordena todos los parrafos contenidos en #primero*/
+#primero p{
+	color:#336699;
+}
+/*ordena todos los enlaces de la página*/
+a{
+	color:#cc3300;
+}
+/*ordena los elementos "em" contenidos en #primero*/
+#primero em{
+	background:#ffffcc;
+	padding: .1em;
+}
+/*ordena los elementos "em" de clase "especial" en toda la página*/
+em.especial{
+background:#FFCC99; border:1px solid #ff9900;padding: .1em;
+}
+/*ordena los elementos "span" contenidos en .normal*/
+.normal span{
+	font-weight:bold;
+}
+/*ordena los enlaces hijos, descendientes de la clase normal*/
+.normal a{
+	color:blue;
+}
