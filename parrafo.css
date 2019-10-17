@@ -1,0 +1,20 @@
+﻿p{
+background-color:green;
+color:white;
+}
+p+p{
+	background-color:white;
+	color:green;
+}
+p+p+p{
+	background-color:red;
+	color:black;
+}
+p+p+p+p{
+	background-color:blue;
+	color:white;
+}
+p+p+p+p+p{
+	background-color:brown;
+	color:yellow;
+}
