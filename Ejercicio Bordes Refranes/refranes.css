@@ -1,0 +1,29 @@
+﻿body {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  border: solid 5px black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: justify;
+}
+p.a{
+	border:red double;
+	border-width: 13px 0 0 13px;
+}
+p.b{
+    border-style:dashed dashed dashed solid;
+	border-width:4px 10px 14px 28px;
+	border-color:blue green;
+	 
+}p.c{
+	border:1.2em double #FFDB06;
+
+	
+	
+}
