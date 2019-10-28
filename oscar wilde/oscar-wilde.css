@@ -1,0 +1,31 @@
+﻿body {
+  background-color: hsl(187, 100%, 60%);
+  font-family: sans-serif;
+  }
+
+h1 {
+  margin: 0;
+  color: hsl(187, 100%, 20%);
+  font-size: 3rem;
+  letter-spacing: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p{
+	height:16rem;
+	width:16rem;
+	border:hsl(187,100%,20%) 5px dashed;
+	background-color:hsl(187,100%,40%);
+	font-size:1.5rem;
+	font-style:oblique;
+	float:left;
+	margin:5px;
+	padding:10px;
+}
+p::first-letter{
+	color:hsl(187,100%,20%);
+	font-size:5rem;
+	font-style:normal;
+	line-height:3rem;
+}
