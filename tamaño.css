@@ -1,0 +1,32 @@
+﻿div{
+	width:1000px;
+	margin:0 auto;
+}
+header{
+	width:100%;
+	height:100px;
+	background-color:blue;
+}
+section{
+	width:100%;
+	height:600px;
+	background-color:gray;
+}
+article.a{
+	width:50%;
+	height:600px;
+	background-color:green;
+	float:left;
+}
+article.b{
+	width:50%;
+	height:600px;
+	background-color:gray;
+	float:left;
+}
+footer{
+	width:100%;
+	height:100px;
+	background-color:#0066FF;
+	overflow:hidden;
+}
