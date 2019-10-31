@@ -1,0 +1,97 @@
+﻿	main{
+	width:1000px;
+	height:600px;
+	margin:0 auto;
+	border:4px gray solid;
+	color:white;
+	overflow:hidden;
+}
+header{
+	width:960px;
+	height:120px;
+	background-color:aqua;
+	margin-left:18px;
+	margin-top:18px;
+	margin-right:18px;
+}	
+section{
+	width:960px;
+	height:250px;
+	margin-left:18px;
+	margin-right:18px;
+}
+article.e{
+	width:25%;
+	height:250px;
+	background-color:#FF4500;
+	position:relative;
+	float:left;
+}
+article.f{
+	width:50%;
+	height:250px;
+	background-color:#32CD33;
+	position:relative;
+	float:left;
+}
+article.g{
+	width:25%;
+	height:250px;
+	background-color:#FED700;
+	position:relative;
+	float:left;
+}
+footer{
+	width:960px;
+	height:180px;
+	background-color:#8A2BE1;
+	margin-left:18px;
+	margin-bottom:18px;
+	margin-right:18px;
+	float:left;
+	}
+.a{width:22%;
+	height:100px;
+	background-color:#FF7F50;
+	margin-bottom:50px;
+	margin-left:50px;
+	margin-top:40px;
+	float:left;
+	position:relative;
+}
+.b{width:21%;
+	height:100px;
+	background-color:#FF7F50;
+	margin:2px;
+	float:left;
+	position:relative;
+	margin-bottom:50px;
+	margin-left:10px;
+	margin-top:40px;
+
+	}
+.c{width:21%;
+	height:100px;
+	background-color:#FF7F50;
+	margin-bottom:50px;
+	margin-left:10px;
+	margin-top:40px;
+	float:left;
+	position:relative;
+}
+.d{width:22%;
+	height:100px;
+	background-color:#FF7F50;
+	margin:2px;
+	float:left;
+	position:relative;
+	margin-left:10px;
+	margin-bottom:50px;
+	margin-right:50px;
+	margin-top:40px;
+
+}
+
+
+	
+
