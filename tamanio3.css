@@ -2,8 +2,9 @@
 	width:930px;
 	height:700px;
 	text-align:center;
-	font-size:25px;
+	font-size:22px;
 	text-transform:uppercase;
+	font-family:verdana;
 }
 header{
 	width:900px;
@@ -15,6 +16,7 @@ header{
 	margin-bottom:12px;
 	background-color:#FFC90F;
 	line-height:40px;
+	font-weight:bold;
 }
 section{width:775px;
 	height:500px;
@@ -39,14 +41,15 @@ footer{
 	background-color:#FFC90F;
 	float:left;
 	line-height:45px;
-
+	font-weight:bold;
 }
 .m{width:100px;
 	height:500px;
 	border:6px black solid;
 	background-color:#FFC90F;
 	float:left;
-	line-height:500px
+	line-height:500px;
+	font-weight:bold;
 }
 .nav{width:735px;
 	height:60px;
@@ -58,19 +61,18 @@ footer{
 	bottom:15px;
 	margin-bottom:12px;
 	background-color:#FFC90F;
-	line-height:60px
-	
+	line-height:60px;
+	font-weight:bold;
 }
 .map{width:735px;
 	height:375px;
 	border:6px black solid;
 	position:relative;
-	top:15px;
-	left:15px;
-	right:15px;
-	bottom:15px;
-	margin-bottom:12px;
+	margin:15px;
+	margin-top:27px;
 	background-color:#98D9EB;
+	font-weight:bold;
+	line-height:360px;
 }
 div article{
 width:95px;
@@ -78,12 +80,12 @@ height:20px;
 border:6px black solid;
 background-color:#98D9EB;
 position:relative;
-	top:7px;
-	left:7px;
-	bottom:7px;
-	float:left;
-	margin:5px;
-	border-radius:20px;
-	line-height:20px
+top:7px;
+left:7px;
+bottom:7px;
+float:left;
+margin:5px;
+border-radius:20px;
+line-height:20px
 	
 }
