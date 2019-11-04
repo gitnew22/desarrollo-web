@@ -1,0 +1,16 @@
+﻿a:hover{
+background-color:red;
+color:white;
+text-decoration:none;
+
+}
+a:visited{
+	color:#ccc;
+	text-decoration:none;
+}
+
+a{
+	color:red;
+	display:block;
+	width:110px;
+}
