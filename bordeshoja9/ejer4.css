@@ -1,0 +1,64 @@
+﻿main{
+	width:900px;
+	height:820px;
+	margin:0 auto;
+	border:1px solid;
+	background-color:#FFFFCC;
+	background-image:url('../imagenesnebulosas/comportamiento-del-pez-telescopio.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+		}
+#header{
+	width:95.5%;
+	height:180px;
+	background-color:fuchsia;
+	margin:20px;
+	opacity:0.8;
+	}
+#navigator{
+	width:40%;
+	height:580px;
+	background-color: aqua;
+	float:left;
+	margin-right:20px;
+	margin-left:20px;
+	opacity:0.8;
+}
+		
+#content{
+	width:480px;
+	height:180px;
+	background-color: olive;
+	margin-bottom:20px;
+	margin-right:10px;
+	float:left;	
+	opacity:0.8;
+}
+
+#linklist{
+	width:480px;
+	height:180px;
+	background-color: gray;
+	margin-bottom:20px;
+	float:left;
+	margin-right:10px;
+	opacity:0.8;
+}
+#footer1{
+	width:230px;
+	height:180px;
+	margin-right:10px;
+	background-color:navy;
+	border:1px;
+	float:left;
+	opacity:0.8;
+}
+#footer2{
+	width:230px;
+	height:180px;
+	margin-left:10px;
+	background-color:blue;
+	float:left;
+	opacity:0.8;
+	}
+

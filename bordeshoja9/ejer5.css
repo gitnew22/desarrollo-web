@@ -1,0 +1,38 @@
+﻿main{
+	width:800px;
+	height:850px;
+	border:2px gray solid;
+	
+	
+}
+.header{
+	width:100%;
+	height:150px;
+	background-color: aqua;
+}
+.a{
+	width:25%;
+	height:35%;
+	background-color: blue;
+	float:left;
+}
+.linklist{
+	background-color:fuchsia;
+	position:relative;
+	width:100%;
+	height:100%;
+	top:280px;
+}
+section{
+	height:600px;
+	background-color:white;
+	padding-left:135px;
+	width:900px;
+	font-style:oblique;
+	background-image:url('HTML5.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+
+
+
