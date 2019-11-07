@@ -1,0 +1,80 @@
+﻿main{
+background-image:url('imagenes/fondo.gif');
+	width:889px;
+	height:800px;
+}
+.a{
+	width:90%;
+	height:90%;
+	background-color: white;
+	float:left;
+	margin:40px 40px 40px 40px;
+	border:1px solid gray;
+	}
+.header{
+	width:100%;
+	height:120px;
+	float:left;
+	background-image:url('imagenes/cabecera.jpg');
+	background-repeat:no-repeat;
+	background-position: inherit;
+	}
+.menus{
+	width:100%;
+	height:40px;;
+	background-color: #EFF3CE;
+	float:left;
+	border-bottom:1px solid gray;
+	
+	}
+	.menus nav ul li{
+	display:inline;
+	line-height:5px;
+	float:left;
+}
+nav ul{
+	position:relative;
+	left:-20px;
+	list-style-image:url('imagenes/star.gif');
+	}
+.texto{
+	position:relative;
+	width:69%;
+	height:480px;
+	float:left;
+	padding:15px;
+	background-color:white;
+}
+.form{
+	width:218px;
+	height:58%;
+	background-color:#EBF2FE;
+	float:right;
+	}
+	h3{
+	background-color: #68729E;
+	color:white;
+}
+.enlacefooter{
+	width:582px;
+	height:50px;
+	background-color: white;
+	float:left;
+	}
+.enlacefooter nav ul li{
+	display:inline;
+	float:left;
+	line-height:10px;
+	color: #89C6F9;
+	padding-left:-8px;
+}
+.d{
+	color: #6DA0EC;
+	padding-left:20px;
+}
+.c p{
+	padding-left:10px;
+}
+h3{
+	padding-left:10px;
+}
