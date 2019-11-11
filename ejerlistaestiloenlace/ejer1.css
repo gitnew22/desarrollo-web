@@ -1,0 +1,27 @@
+﻿ul{
+	width:180px;
+	list-style-type:none;
+	
+}
+li{
+border:.5px solid;
+border-bottom:inherit;
+padding:5px;
+background-color: #D6D6D6;
+}
+.a{
+	border-bottom:.5px solid;
+}
+.b ul li{
+	display:inline;
+	margin:-2px;
+	border-right:inherit;
+}
+.c{
+	display:inline;
+	border-bottom:.5px solid;
+}
+
+.d{
+	border-right:1px solid;
+}

@@ -29,13 +29,21 @@ background-image:url('imagenes/fondo.gif');
 	}
 	.menus nav ul li{
 	display:inline;
-	line-height:5px;
+	left:5px;
+	line-height:1px;
 	float:left;
+	border:3px solid;
+	padding:9px;
+	margin-right:10px;
+	background-color: #EBF2FE;
+	border-top-left-radius: 12px;
+	border-top-right-radius:12px;
 }
 nav ul{
 	position:relative;
 	left:-20px;
 	list-style-image:url('imagenes/star.gif');
+	
 	}
 .texto{
 	position:relative;
@@ -45,16 +53,19 @@ nav ul{
 	padding:15px;
 	background-color:white;
 }
+	h3{
+	background-color: #68729E;
+	color:white;
+	padding-left:10px;
+	padding-top:0;
+}
+
 .form{
 	width:218px;
 	height:58%;
 	background-color:#EBF2FE;
 	float:right;
 	}
-	h3{
-	background-color: #68729E;
-	color:white;
-}
 .enlacefooter{
 	width:582px;
 	height:50px;
@@ -73,8 +84,5 @@ nav ul{
 	padding-left:20px;
 }
 .c p{
-	padding-left:10px;
-}
-h3{
 	padding-left:10px;
 }
