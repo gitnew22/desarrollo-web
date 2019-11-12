@@ -5,10 +5,59 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>Sin título 1</title>
 <style type="text/css">
+#header{
+	width:180px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div ul{
+	list-style:none;
+}
+.nav>li{
+	position:relative;
+}
+.nav li a{
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+.nav li a:hover{
+	background-color:#434343;
+}
+.nav li ul{
+	position:absolute;
+	left:110px;
+	top:-5px;
+	min-width:100px;
+	display:none;
+}
+.nav li:hover>ul{
+	display:block;
+}
+
+li {
+	width:150px;
+}
+
+</style>
 </head>
 
 <body>
-
+	<div id="header">
+		<ul class="nav">
+			<li><a href="">Inicio</a></li>
+			<li><a href="">Quienes somos</a></li>
+			<li><a href="">Servicios</a>
+				<ul>
+					<li><a href="">Servicio A</a></li>
+					<li><a href="">Servicio B</a></li>
+					<li><a href="">Servicio C</a></li>
+				</ul>
+			</li>
+			<li><a href="">Contacto</a></li>
+		</ul>
+	</div>
 </body>
 
 </html>
