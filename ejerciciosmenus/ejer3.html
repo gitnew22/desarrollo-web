@@ -13,36 +13,17 @@
 	font-size: large;
 	text-align:center;
 }
-.nav li a{
-	background-color:#000;
-	color:#fff;
-	padding:10px 12px;
-	text-decoration:none;
-	display:block;
-}
-.nav li ul li{
-	list-style:none;
-	display:block;
-	display:none;
-	width:250px;
-	position:relative;
-	left:-40px;
-	top:10px;
-}
-.nav li a:hover{
+	
+ .nav ul li ul:hover{
 	background-color:gray;
 }
 .nav li:hover ul li{
 	display:block;
 	}
-.nav li ul li:hover ul{
-	display: block;
-	position:absolute;
-	width:250px;
-	top:-10px;
-	left:250px;
-	float:left;
 	
+
+li>ul{
+	position:absolute;
 }
 </style>
 
@@ -52,7 +33,7 @@
 	
 		<ul class="nav">
 			<li><a href="">Menu1</a>
-				<ul>
+				<ul class="c">
 					<li><a href="">menú1.1</a></li>
 					<li><a href="">Menú1.2</a></li>
 					<li><a href="">Menú1.3</a></li>
@@ -61,7 +42,7 @@
 				</ul>
 			</li>
 			<li><a href="">Menu2</a>
-				<ul>
+				<ul class="d">
 					<li><a href="">Menú2.1</a></li>
 					<li><a href="">Menú2.2</a></li>
 					<li><a href="">Menú2.3</a>
@@ -76,7 +57,7 @@
 				</ul>
 			</li>
 			<li><a href="">Menu3</a>
-				<ul>
+				<ul class="e">
 					<li><a href="">Menú3.1</a></li>
 					<li><a href="">Menú3.2</a></li>
 					<li><a href="">Menú3.3</a></li>
