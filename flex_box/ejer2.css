@@ -24,7 +24,8 @@ h1{
 	display:flex;
 	}
 	
-@media all and (max-width:600px){
+@media all and (max-width:800px){
+	
 	.a{
 	flex-direction:column;
 	-webkit-flex-direction:column;
