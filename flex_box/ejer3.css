@@ -1,0 +1,32 @@
+﻿.main{
+display:flex;
+	flex-direction:column;
+	background-color:purple;
+	padding:10px;
+	height:600px
+	}
+.header{
+	background-color:orange;
+}
+.nav{
+	flex:1;
+	background-color: yellow;
+}
+.article{
+	flex:3;
+	background-color:fuchsia;
+}
+.aside{	
+	flex:1;
+	background-color: yellow;
+}
+.footer{
+	background-color:orange;
+		
+}
+.section{
+	display:flex;
+	flex-direction:row;
+	height:90%;
+}
+
