@@ -1,1 +1,36 @@
-﻿
+﻿main{
+	display:flex;
+	flex-direction:column;
+	
+	width:900px;
+	height:550px;
+}
+.a{
+	flex:3;
+	display:flex;
+	flex-direction:row;
+	background-color:#2D3E50;
+}
+img{
+	flex:1;
+	padding:15px;
+}
+h2{
+	flex:7;
+}
+.na{
+	flex:8;
+}
+.b{
+	flex:7;
+}
+.c{
+	flex:2;
+	display:flex;
+	background-color:#2D3E50;
+}
+.nb{
+	display:flex;
+}
+
+
