@@ -1,0 +1,40 @@
+﻿div{
+display:flex;
+flex-direction:column;
+
+}
+.header{
+background-color:#B2480C;
+}
+.centro{
+background-color:#21180F;
+display:flex;
+flex-direction:row;	
+}
+.footer{
+background-color:#B2480C;
+	
+}
+.seccizq{
+display:flex;
+flex-direction:column;	
+flex:1
+}
+.seccizq>div{
+	border:1px solid;
+	border-color: #5A4939;
+	color:#5A4939;
+}
+.seccentr{
+background-color: #4E4026;
+	display:flex;
+	flex:3;
+}
+.seccderch{
+	flex:1;
+	border:1px solid;
+	border-color: #5A4939;
+	color:#5A4939;
+
+}
+
