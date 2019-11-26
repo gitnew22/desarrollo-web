@@ -1,4 +1,8 @@
-﻿div{
+﻿*{
+	margin:0;
+	padding:0;
+}
+div{
 display:flex;
 flex-direction:column;
 
@@ -18,12 +22,16 @@ background-color:#B2480C;
 .seccizq{
 display:flex;
 flex-direction:column;	
-flex:1
+flex:1;
+margin:6px;
+padding:5px;
 }
 .seccizq>div{
 	border:1px solid;
 	border-color: #5A4939;
 	color:#5A4939;
+	margin:4px;
+	padding:4px;
 }
 .seccentr{
 background-color: #4E4026;
@@ -35,6 +43,38 @@ background-color: #4E4026;
 	border:1px solid;
 	border-color: #5A4939;
 	color:#5A4939;
-
+}
+nav ul li{
+	border:1px solid;
+	list-style-type:none;
+	margin:6px;
+	padding:5px;
+}
+.centres{
+	display:flex;
+	flex-direction:row;
+	border:1px solid;
+}
+.cendos{	display:flex;
+	flex-direction:row;
+	display:flex;
+	border:1px solid ;
+	
+}
+.centres>div{
+	border:1px solid ;
+	margin:2px;
+	flex:1;
 }
 
+.cendos>div{
+	border:1px solid;
+	margin:2px;
+	flex:1;
+}
+span{
+	color:#B2480C;
+}
+span.a{
+	font-size: x-small;
+}
