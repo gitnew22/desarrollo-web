@@ -1,0 +1,148 @@
+﻿.caja{
+	display:flex;
+	background-color:black;
+	flex-direction:row;
+}
+.mobile{
+	display:grid;
+	display:flex;
+	flex-direction:column;
+	flex:1;
+	align-items:center;
+}
+.tablet{
+	display:grid;
+	display:flex;
+	flex-direction:column;
+	flex:2;
+	align-items:center;
+}
+.desktop{
+	display:grid;
+	flex-direction:column;
+	display:flex;
+	flex:3;
+	align-items:center;
+}
+.mobile>div{
+	display:grid;
+	grid-template-columns:1;
+	height:100px;
+}
+.mobile>div.header{
+	grid-row:1/21;
+	background-color:aqua;
+}
+.mobile>div.menu{
+	grid-row:2/21fr;
+	background-color:blue;
+}
+.mobile>div.hero{
+	grid-row:4/21fr;
+	background-color:fuchsia;
+}
+.mobile>div.main{
+	grid-row:3/21fr;
+	background-color:gray;
+}
+.mobile>div.banner{
+	grid-row:4/21fr;
+	background-color:green;
+}
+.mobile>div.extra{
+	grid-row:3/21fr;
+	background-color:lime;
+}
+.mobile>div.image{
+	grid-row:4/21fr;
+	background-color:maroon;
+}
+
+.tablet>div{
+	display:grid;
+	grid-template-columns:1;
+	height:100px;
+}
+.tablet>div.header{
+	grid-row:1/21;
+	background-color:aqua;
+}
+.tablet>div.menu{
+	grid-row:2/21fr;
+	background-color:blue;
+}
+.tablet>div.hero{
+	grid-row:4/21fr;
+	background-color:fuchsia;
+}
+.tablet>div.main{
+	grid-row:3/21fr;
+	background-color:gray;
+}
+.tablet>div.banner{
+	grid-row:4/21fr;
+	background-color:green;
+}
+.tablet>div.extra{
+	grid-row:3/21fr;
+	background-color:lime;
+}
+.tablet>div.image{
+	grid-row:4/21fr;
+	background-color:maroon;
+}
+
+.desktop>div{
+	display:grid;
+	grid-template-columns:1;
+	height:100px;
+}
+.desktop>div.header{
+	grid-row:1/21;
+	background-color:aqua;
+}
+.desktop>div.menu{
+	grid-row:2/21fr;
+	background-color:blue;
+}
+.desktop>div.hero{
+	grid-row:4/21fr;
+	background-color:fuchsia;
+}
+.desktop>div.main{
+	grid-row:3/21fr;
+	background-color:gray;
+}
+.desktop>div.banner{
+	grid-row:4/21fr;
+	background-color:green;
+}
+.desktop>div.extra{
+	grid-row:3/21fr;
+	background-color:lime;
+}
+.desktop>div.image{
+	grid-row:4/21fr;
+	background-color:maroon;
+}
+
+
+
+
+
+
+
+
+
+.tablet>div{
+	display:grid;
+	grid-template-columns:2;
+	grid-template-rows:5;
+
+}
+.desktop>div{
+	display:grid;
+	grid-template-columns:3;
+	grid-template-rows:5;
+
+}

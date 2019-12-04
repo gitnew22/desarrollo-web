@@ -1,0 +1,10 @@
+﻿.caja{
+display:grid;
+grid-template-columns:(1fr 1fr 1fr);
+grid-template-rows:(1fr 1fr 1fr);
+background-color: aqua;
+height:500px;
+text-align:center;
+ grid-column-gap: 1rem;  grid-row-gap: 1rem;
+}
+
