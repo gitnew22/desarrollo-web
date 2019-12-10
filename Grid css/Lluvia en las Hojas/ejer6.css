@@ -1,0 +1,56 @@
+﻿.container{
+	display:grid;
+	grid-template-columns: repeat(9, 1fr);
+	grid-template-rows: repeat(9, 1fr);
+	background-image:url('images/img02.jpg');
+	grid-template-areas:
+	"enunciado enunciado enunciado enunciado enunciado enunciado enunciado enunciado enunciado"
+	"bienvenido bienvenido bienvenido bienvenido bienvenido bienvenido"
+	
+	display:flex;
+	flex-direction:row;
+	list-style-type:none;
+}
+a{
+	color:white;
+	text-decoration:none;
+	padding:10px;
+	font-size:small;
+	}
+	li{
+	border:1px solid white;
+	;
+}
+.enunciado{
+	grid-area:enunciado;
+	}
+.bienvenido{
+	grid-area:bienvenido;
+}
+.alicuan{
+	grid-area:alicuan;
+}
+.loren{
+	grid-area:loren;
+}
+.categorias{
+	grid-area:categorias;
+}
+.loren2{
+	grid-area:loren2;
+}
+.noticias{
+	grid-area:noticias;
+}
+.archivos{
+	grid-area:archivos;
+}
+.pie1{
+	grid-area:pie1;
+}
+.pie2{
+	grid-area:pie2;
+}
+.pie3{
+	grid-area:pie3;
+}
