@@ -1,16 +1,28 @@
-﻿.container{
-	display:grid;
-	grid-template-columns: repeat(9, 1fr);
-	grid-template-rows: repeat(9, 1fr);
-	background-image:url('images/img02.jpg');
-	grid-template-areas:
-	"enunciado enunciado enunciado enunciado enunciado enunciado enunciado enunciado enunciado"
-	"bienvenido bienvenido bienvenido bienvenido bienvenido bienvenido"
-	
-	display:flex;
-	flex-direction:row;
-	list-style-type:none;
+﻿*{
+	margin:0px;
 }
+.container{
+	display:grid;
+	background-image:url('images/img02.jpg');
+	grid-template-columns: 0.5fr 2fr 2fr 2fr 1fr;
+	grid-template-rows: 1fr 1fr repeat(8,1.5fr);
+	height:100vh;
+	gap:5px;
+	color:white;
+	
+	
+	grid-template-areas:
+	". menu menu menu ."
+	". enunciado enunciado enunciado ."
+	". bienvenido bienvenido tempus ."
+	". bienvenido bienvenido categorias ."
+	". loren loren categorias ."
+	". loren loren noticias ."
+	". loren2 loren2 noticias ."
+	". loren2 loren2 archivos 	."
+	". . . archivos ."
+	". pie1 pie2 pie3 .";
+	}
 a{
 	color:white;
 	text-decoration:none;
@@ -18,17 +30,29 @@ a{
 	font-size:small;
 	}
 	li{
-	border:1px solid white;
-	;
+	border-right:1px solid white;
+	display:inline;
+	list-style-type:none;
+}
+.lluvia{
+	font-size:2em;
+}
+.menu{
+	grid-area:menu;
 }
 .enunciado{
 	grid-area:enunciado;
+	
 	}
+.tempus{
+	grid-area:tempus;
+		
+}
 .bienvenido{
 	grid-area:bienvenido;
 }
-.alicuan{
-	grid-area:alicuan;
+.imagen1{
+	float:right;
 }
 .loren{
 	grid-area:loren;
