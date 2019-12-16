@@ -5,7 +5,7 @@
 .container{
 	display:grid;
 	grid-template-columns:.2fr 1fr 1fr 1fr 1fr 1fr 1fr .2fr;
-	grid-template-rows:1fr 3fr 7fr 2.5fr;
+	grid-template-rows:1fr 2.5fr 3fr 2.5fr;
 	height:100%;
 	grid-template-areas:
 	". enun enun enun menu menu menu ."
@@ -43,4 +43,34 @@
 	.menu ul{
 	display:flex;
 }
+.imag img{
+	width:100%;
+	height:100%;
+		border-radius:0 0 10px 10px;
+}
+div.imag{
+	position:relative;
+}
 
+div.opacity{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	font-size:10pt;
+	width:100%;
+	bottom:0;
+	left:0;
+	position:absolute;
+	border-radius:0 0 10px 10px;
+	background-color:#000000;
+	opacity:0.6;
+	overflow:hidden;
+}
+.opacity a{
+	height:20px;
+}
+.opcacity img{
+	width:20px;
+	height:20px;
+}
