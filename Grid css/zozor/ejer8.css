@@ -4,8 +4,8 @@
 
 .container{
 	display:grid;
-	grid-template-columns:.2fr 1fr 1fr 1fr 1fr 1fr 1fr .2fr;
-	grid-template-rows:1fr 2.5fr 3fr 2.5fr;
+	grid-template-columns:1.3fr 1fr 1fr 1fr 1fr 1fr 1fr 1.3fr;
+	grid-template-rows:1fr 1.8fr 3fr 2.5fr;
 	height:100%;
 	grid-template-areas:
 	". enun enun enun menu menu menu ."
@@ -40,19 +40,49 @@
 		grid-area:friend;
 	}
 	/****************************************/
+	.menu{
+	background:url('images/separateur.png') bottom repeat-x;
+	margin-bottom:15px;
+	}
+	.enun{
+	background:url('images/separateur.png') bottom repeat-x;
+	margin-bottom:15px;
+	}
+	.enun img,span{
+	padding-top:30px;
+}	
 	.menu ul{
 	display:flex;
+	padding-top:100px;
+	list-style-type:none;
+	}
+	.menu ul li{
+		padding-left:30px;
+
 }
-.imag img{
+	.menu ul li a{
+	text-decoration:none;
+	color:black;
+}
+@font-face {
+	font-family:ballpark;
+	src: url(fuente/BALLW.TTF);
+}
+.z{
+	font-family:ballpark;
+	font-size: xx-large;
+}
+.imag .img1{
 	width:100%;
 	height:100%;
 		border-radius:0 0 10px 10px;
+		border-top:100% black solid;
 }
-div.imag{
+.imag{
 	position:relative;
 }
 
-div.opacity{
+.opacity{
 	display:flex;
 	flex-direction:row;
 	justify-content:space-between;
@@ -66,11 +96,49 @@ div.opacity{
 	background-color:#000000;
 	opacity:0.6;
 	overflow:hidden;
-}
+	color:white;
+	height:60px;
+	}
 .opacity a{
-	height:20px;
+	width:10px;
+	height:60px;
 }
-.opcacity img{
-	width:20px;
-	height:20px;
+.see{
+width:80px;
+height:20px;
+background-color:#831618;
+text-align:center;
+margin-right:10px;
+padding-top:5px;
+border-radius:5px;
+}
+.travel{
+	margin-top:20px;
+	padding-right:30px;
+}
+.great h2{
+	display:inline;
+}
+.great img{
+	vertical-align:middle;
+}
+.about{
+position:relative;
+background-color: #706B66;
+margin-top:10px;
+border-radius:20px;
+padding:10px;
+color:white;
+}
+.pico{
+position:absolute;
+	top:73px;
+	left:-12px;
+}
+.about ul{
+		padding-top:30px;
+}
+.about ul li{
+	display:inline;
+
 }
