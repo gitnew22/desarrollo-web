@@ -8,7 +8,7 @@
 	grid-template-rows:1fr 1.8fr 3fr 2.5fr;
 	height:100%;
 	grid-template-areas:
-	". enun enun enun menu menu menu ."
+	". enun enun menu menu menu menu ."
 	". imag imag imag imag imag imag ."
 	". travel travel travel travel about about ."
 	". latest latest pictu pictu friend friend ."	
@@ -55,6 +55,7 @@
 	display:flex;
 	padding-top:100px;
 	list-style-type:none;
+	
 	}
 	.menu ul li{
 		padding-left:30px;
@@ -63,6 +64,7 @@
 	.menu ul li a{
 	text-decoration:none;
 	color:black;
+	padding-right:50px;
 }
 @font-face {
 	font-family:ballpark;
@@ -137,8 +139,55 @@ position:absolute;
 }
 .about ul{
 		padding-top:30px;
+		padding-right:20px;
+		padding-left:20px;
 }
 .about ul li{
 	display:inline;
+	
+}
+.burro{
+padding-left:60px;
+margin-top:20px;
+}
+.about p{
+	font-size: large;
+	margin-top:20px;
+}
+.latest,.pictu,.friend{
+margin-top:50px;
+background:url('images/separateur.png') top repeat-x;
+padding-top:50px;	
+}
+.pictu{
+margin-top:50px;
+background:url('images/separateur.png') top repeat-x, 
+url('images/ico_top.png')no-repeat top;
+padding-top:50px;	
+}
 
+.pictu ul li{
+	display:inline;
+	
+}
+.pictu ul li img{
+	border:.5px black solid;
+}
+.pictu ul{
+padding:0px;
+margin-top:20px;	
+}
+.latest p{
+margin-top:20px;
+}
+.friend ul{
+	display:inline-block;
+	margin-top:20px;
+	color: maroon;
+}
+.friend ul li{
+	list-style-image:url('images/ico_liensexterne.png');
+}
+.friend h2{
+	padding-left:40px;
 }
