@@ -1,16 +1,21 @@
 ﻿a:hover{
-background-color:red;
+background-color:blue;
 color:white;
 text-decoration:none;
 
 }
 a:visited{
-	color:#ccc;
-	text-decoration:none;
+	background-color: yellow;
+	color: fuchsia;
+	text-decoration: line-through;
 }
 
 a{
-	color:red;
-	display:block;
-	width:110px;
+	
+	width:100px;
+	height:25px;
+	display:list-item;
+	display: inline-block;
+	text-decoration: none;
+	padding:25px;
 }
