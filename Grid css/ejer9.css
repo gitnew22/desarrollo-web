@@ -1,4 +1,8 @@
-﻿#contenedor{
+﻿*{
+	margin:0px;
+}
+
+#contenedor{
 	display:grid;
 	grid-template-columns: 1fr .8fr .8fr .5fr .5fr .8fr .8fr;
 	grid-template-rows: 1fr 1fr 3fr 2fr 2fr .8fr;
@@ -9,9 +13,9 @@
 	"a a a a a a a"
 	"b c c c c c c"
 	"b d d d e e e"
-	"b f g h i j k"
-	"b l m n o p q"
-	"p p p p p p";
+	"b f g i i j k"
+	"b l m o o p q"
+	"r r r r r r r";
 	}
 	#a{
 	grid-area:a;
@@ -75,11 +79,15 @@
 	}
 	#p{
 	grid-area:p;
-	background-color:green;
+	background-color:blue;
 	}
 	#q{
 	grid-area:q;
 	background-color:blue;
 	}
+	#r{
+	grid-area:r;
+	background-color:green;
+}
 
 

@@ -1,0 +1,22 @@
+﻿/*#contenedor img{
+	transform:translate(500px,405px);
+}
+#contenedor img{
+	transform:rotate(90deg);
+}
+#contenedor img{
+	transform:scale(2,1);
+}
+#contenedor img{
+	transform:skew(20deg,55deg);
+}
+/*varios a la vez*/
+
+#contenedor img{
+	transform:skew(0deg,0deg) rotate(110deg) scale(1,4) translate(250px,-250px);
+	transition:transform 1s;
+	transition-timing-function:ease-in;
+}
+/*#contenedor img:hover{
+	transform:rotate(360deg);*/
+}

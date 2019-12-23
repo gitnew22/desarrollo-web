@@ -1,0 +1,81 @@
+﻿*{
+	margin:0px;
+}
+
+#contenedor{
+	display:grid;
+	grid-template-columns: .5fr .5fr .5fr .5fr .2fr .8fr;
+	grid-template-rows: 1fr 1fr .5fr .5fr 1fr .5fr .5fr 1fr ;
+	height:100vh;
+	gap:10px;
+	
+	grid-template-areas:
+	"a a b c d d "
+	"a a b e f g "
+	"a a b e k k "
+	"h i b e k k "
+	"h j b e k k "
+	"h j m m k k "
+	"l l m m k k "
+	"l l m m n n "
+	;
+	}
+	#contenedor>div{
+	border-radius:10px;
+}
+	#a{
+	grid-area:a;
+	background-color:purple;
+	}
+	#b{
+	grid-area:b;
+	background-color:green;
+	}
+	#c{
+	grid-area:c;
+	background-color:Dodgerblue;
+	}
+	#d{
+	grid-area:d;
+	background-color:green;
+	}
+	#e{
+	grid-area:e;
+	background-color:red;
+	}
+	#f{
+	grid-area:f;
+	background-color:Dodgerblue;
+	}
+	#g{
+	grid-area:g;
+	background-color:red;
+	}
+	#h{
+	grid-area:h;
+	background-color:green;
+	}
+	#i{
+	grid-area:i;
+	background-color:Dodgerblue;
+	}
+	#j{
+	grid-area:j;
+	background-color:red;
+	}
+	#k{
+	grid-area:k;
+	background-color:purple;
+	}
+	#l{
+	grid-area:l;
+	background-color:green;
+	}
+	#m{
+	grid-area:m;
+	background-color:purple;
+	}
+	#n{
+	grid-area:n;
+	background-color:Dodgerblue;
+	}
