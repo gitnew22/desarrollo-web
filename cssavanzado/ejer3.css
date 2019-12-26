@@ -1,0 +1,19 @@
+﻿@keyframes changeColor {
+  0% {
+    background: url('img_5terre.jpg ');         /* Primer fotograma */
+  }
+  50% {
+    background: url('img_forest.jpg');      /* Segundo fotograma */
+   
+  }
+  100% {
+    background:url('img_lights.jpg');       /* Último fotograma */
+  }
+}
+
+.anim {
+  
+  width: 800px;
+  height: 600px;
+  animation: changeColor 2s ease 0s infinite;  /* Relaciona con @keyframes */
+}}
