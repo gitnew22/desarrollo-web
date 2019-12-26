@@ -55,10 +55,7 @@ footer{
 	height:60px;
 	border:6px black solid;
 	position:relative;
-	top:15px;
-	left:15px;
-	right:15px;
-	bottom:15px;
+	margin:15px 15px 15px 15px;
 	margin-bottom:12px;
 	background-color:#FFC90F;
 	line-height:60px;
@@ -69,7 +66,7 @@ footer{
 	border:6px black solid;
 	position:relative;
 	margin:15px;
-	margin-top:27px;
+	margin-top:15px;
 	background-color:#98D9EB;
 	font-weight:bold;
 	line-height:360px;
