@@ -20,7 +20,7 @@
 }
 .c:hover + .b{
 	animation-name:rotabox;
-	animation-duration:4s;
+	animation-duration:3s;
 	animation-iteration-count:infinite;
 	animation-direction: alternate;
 }
@@ -31,7 +31,7 @@
 	}
 	to{
 	transform:rotate(360deg);
-	left:1000px;
+	left:1100px;
 	background:yellow;
 	color:blue;/*ultimo fotograma*/
 	}
