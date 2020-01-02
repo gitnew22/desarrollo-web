@@ -1,0 +1,39 @@
+﻿.a{
+	animation:moviboxx 10s infinite alternate linear,
+	 movibox 1s infinite alternate;
+	/*animation-iteration-count:infinite;/*numero de veces que se ejecuta*/
+	/*animation-direction: alternate;/*va y vuelve*/
+	/*animation-timing-function:linear;/*empieza rapido y acaba lento*/
+	/*margin-top:20px;*/
+}
+@keyframes moviboxx{
+  0%   {
+  margin-left:700px;top: 0px;
+  }
+  25%  {
+  margin-left:0px;top: 0px;
+   }
+  50%  {
+  margin-left:700px;top: 0px;
+  }
+  75%  {
+  margin-left:0px;top: 0px;
+  }
+   100% {
+  margin-left:700px;top: 0px;
+  
+   }
+  
+}
+@keyframes movibox{
+0%{
+ transform:rotate(5deg);}
+ 25%{ 
+ transform:rotate(10deg);}
+ 50%{
+ transform:rotate(0deg);}
+ 75%{
+ transform:rotate(5deg);}
+ 100%{
+ transform:rotate(10deg);}
+ }

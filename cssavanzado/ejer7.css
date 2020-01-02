@@ -1,0 +1,80 @@
+﻿.atras{
+	margin-left:580px;
+	margin-top:150px;
+	z-index:-1;
+	position:absolute;
+	font-size:4em;
+}
+
+.a,.b,.c,.d{
+	/*margin:0px auto;*/
+	width:200px;
+	height:200px;
+	position:absolute;
+	/*animation-name:rotar;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+	animation-direction: alternate;*/
+
+	}
+	
+.a {
+left:450px;
+background-color:red;
+top:0px;
+animation:girarRojo 2s alternate infinite;	
+}
+.b{
+background-color:yellow;
+left:650px;
+top:0px;
+animation:girarAmarillo 2s alternate infinite;	
+	
+}
+.c{
+background-color:blue;
+left:450px;
+top:200px;
+
+animation:girarAzul 2s alternate infinite;	
+	
+}
+.d{
+background-color:green;
+left: 650px;
+top: 200px;
+animation:girarVerde 2s alternate infinite;	
+	
+}
+@keyframes girarRojo{
+from{
+left:450px;
+ }
+ to{
+ transform:translateX(-100px) rotate(90deg);
+ }
+ }
+ @keyframes girarAmarillo{
+from{
+left:650px;
+ }
+ to{
+ transform:translateX(100px) rotate(-90deg);
+ }}
+@keyframes girarAzul{
+from{
+left:450px;
+ }
+ to{
+ transform:translateX(-100px) rotate(90deg);
+ }}
+@keyframes girarVerde{
+from{
+left:650px;
+ }
+ to{
+ transform:translate(100px,0px) rotate(90deg);
+ }
+
+ }
+
