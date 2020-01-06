@@ -31,7 +31,7 @@ animation:textcuerpo 8s linear infinite;
   }
   @keyframes textcuerpo{
   0% {content:'0%';}
-  40%{content:'25%';}
+  43%{content:'25%';}
   58%{content:'50%';}
   87%{content:'75%';}
   100%{content:'100%';}
