@@ -1,0 +1,87 @@
+﻿.header{
+background-color:black;
+color:white;
+height:30px;	
+}
+.hero{background-color:blue;
+color:white;
+height:150px;
+border:.2px white solid;
+}
+.main{
+background-color:black;
+color:white;
+height:120px;
+border:.2px white solid;
+}
+.ab{
+color:white;
+height:120px;
+border:.2px white solid;
+
+	
+}
+.ac{
+color:white;
+height:120px;
+border:.2px white solid;
+
+	
+}
+.ad{
+color:white;
+height:120px;
+border:.2px white solid;
+
+	
+}
+.ae{
+color:white;
+height:120px;
+border:.2px white solid;
+
+}
+.banner{
+background-color:orange;
+color:white;
+height:60px;
+	border:.2px white solid;
+}
+.extra{
+background-color:green;
+color:white;
+height:70px;
+border:.2px white solid;
+}
+.image{background-color:lime;
+color:white;
+height:70px;
+border:.2px white solid;
+	
+}
+.as1{
+background-color:red;
+color:white;
+height:120px;
+border:.2px white solid;
+}
+.as2{
+background-color:red;
+color:white;
+height:60px;
+border:.2px white solid;
+}
+.as3{
+background-color:red;
+color:white;
+height:70px;
+border:.2px white solid;
+}
+.container{
+text-align:center;
+}
+
+div[class ^='col']/*esto instruye que todas las clases que empiecen por
+ "col" se haga esto*/{
+
+}

@@ -30,7 +30,7 @@
   opacity:1;margin-left:950px;top:0px;
   }
   }
-@keyframes movibox{
+/*@keyframes movibox{
  0%{
  transform:rotate(-100deg);}
  20%{ 
@@ -43,110 +43,110 @@
  transform:rotate(-100deg);}
  100%{
  transform:rotate(100deg);}
- }
+ }*/
  @keyframes moviboxxx{
    0%{
- transform:translatey(-100px);}
+ transform:translatey(-100px) rotate(100deg);}
  2%{ 
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(200deg);}
  4%{
- transform:translatey(-100px);}
+ transform:translatey(-100px) rotate(300deg);}
  6%{
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(400deg);}
  8%{
- transform:translateY(-100px);}
+ transform:translateY(-100px)rotate(500deg);}
  10%{
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(600deg);}
  12%{
- transform:translatey(-100px);}
+ transform:translatey(-100px)rotate(700deg); }
  14%{ 
- transform:translateY(200px);}
+ transform:translateY(400px)rotate(800deg);}
  16%{
- transform:translatey(-100px);}
+ transform:translatey(-100px)rotate(900deg);}
  18%{
- transform:translateY(200px);}
+ transform:translateY(400px)rotate(800deg);}
  20%{
- transform:translateY(-100px);}
+ transform:translateY(-100px)rotate(700deg);}
  22%{
- transform:translateY(200px);}
+ transform:translateY(400px)rotate(600deg);}
   24%{
- transform:translatey(-100px);}
+ transform:translatey(-100px)rotate(500deg);}
  26%{ 
- transform:translateY(200px);}
+ transform:translateY(400px)rotate(400deg);}
  28%{
- transform:translatey(-100px);}
+ transform:translatey(-100px)rotate(300deg);}
  30%{
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(200deg);}
  32%{
- transform:translateY(-100px);}
+ transform:translateY(-100px) rotate(100deg);}
  34%{
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(200deg);}
  36%{
- transform:translatey(-100px);}
+ transform:translatey(-100px) rotate(300deg);}
  38%{ 
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(400deg);}
  40%{
- transform:translatey(-100px);}
+ transform:translatey(-100px) rotate(-100deg);}
  42%{
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(100deg);}
  44%{
- transform:translateY(-100px);}
+ transform:translateY(-100px) rotate(-100deg);}
  46%{
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(100deg);}
   48%{
- transform:translatey(-100px);}
+ transform:translatey(-100px) rotate(-100deg);}
  50%{ 
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(100deg);}
  52%{
- transform:translatey(-100px);}
+ transform:translatey(-100px) rotate(-100deg);}
  54%{
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(100deg);}
  56%{
- transform:translateY(-100px);}
+ transform:translateY(-100px) rotate(-100deg);}
  58%{
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(100deg);}
  60%{
- transform:translatey(-100px);}
+ transform:translatey(-100px) rotate(-100deg);}
   62%{ 
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(100deg);}
  64%{
- transform:translatey(-100px);}
+ transform:translatey(-100px) rotate(-100deg);}
  66%{
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(100deg);}
  68%{
- transform:translateY(-100px);}
+ transform:translateY(-100px) rotate(-100deg);}
  70%{
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(100deg);}
  72%{ 
- transform:translateY(-100px);}
+ transform:translateY(-100px) rotate(-100deg);}
  74%{
- transform:translatey(200px);}
+ transform:translatey(400px) rotate(100deg);}
  76%{
-  transform:translateY(-100px);}
+  transform:translateY(-100px) rotate(-100deg);}
  78%{
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(100deg);}
  80%{
- transform:translateY(-100px);}
+ transform:translateY(-100px) rotate(-100deg);}
   82%{
- transform:translatey(200px);}
+ transform:translatey(400px) rotate(100deg);}
  84%{
- transform:translateY(-100px);}
+ transform:translateY(-100px) rotate(-100deg);}
  86%{
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(100deg);}
  88%{
- transform:translateY(-100px);}
+ transform:translateY(-100px) rotate(-100deg);}
  90%{
- transform:translatey(200px);}
- 92%{ 
- transform:translateY(-100px);}
+ transform:translatey(400px)rotate(100deg);}
+ 92%{  
+ transform:translateY(-100px) rotate(-100deg);}
  94%{
- transform:translatey(200px);}
+ transform:translatey(400px) rotate(100deg);}
  96%{
- transform:translateY(-100px);}
+ transform:translateY(-100px) rotate(-100deg);}
  98%{
- transform:translateY(200px);}
+ transform:translateY(400px) rotate(100deg);}
  100%{
- transform:translateY(-100px);}
+ transform:translateY(-100px) rotate(-100deg);}
 
 
  }

@@ -1,0 +1,16 @@
+﻿/*.row{
+	border:1px black solid;
+	margin:1px;
+}
+.col-12, .col-md-8{
+	border:1px black solid;
+
+}
+.col-6, .col-md6{
+	background-color:aqua;
+	border:1px black solid;
+}*/
+div[class ^='col']{
+border:1px solid;
+background-color:gray;
+}
