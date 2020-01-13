@@ -3,83 +3,70 @@ color:white;
 border:double 10px silver;
 /*border-width:1.01rem 1.01rem 1.01rem 1.01rem;*/
 }
-.fea1{
-background-color: maroon;
+.header{
+background-color: green;
 height:50px;
+border:4px white solid;
+}
+.uno{
+background-color: silver;
+height:100px;
 border:4px white solid;
 }
 .dos{
-background-color:black;
-height:50px;
+background-color:silver;
+height:100px;
 border:4px white solid;
 }
 .tres{
-background-color:green;
-border:4px white solid;
-}
-.products{
-background-color: navy;
-height:200px;
-border:4px white solid;
-}
-.fea2{
-background-color:maroon;
+background-color:silver;
 height:100px;
 border:4px white solid;
 }
-.invi1{
+.cuatro{
+background-color:silver;
 height:100px;
 border:4px white solid;
 }
-.bonus1{
-background-color:lightpink;
+.a{
+background-color: gray;
 height:100px;
 border:4px white solid;
 }
-.invi2{
+.b{
+background-color:gray;
 height:100px;
 border:4px white solid;
 }
-.invi3{
+.c{
+background-color:gray;
+height:100px;
+border:4px white solid;
+}
+.d{
+background-color:gray;
 height:100px;
 border:4px white solid;
 	
 }
-.bonus3{
-background-color:lightpink;
+.desktop{
+background-color: aqua;
+height:50px;
+border:4px white solid;
+}
+.Y{
+background-color: #FF9900;
 height:100px;
 border:4px white solid;
 }
-.fea3{
-background-color:maroon;
-height:100px;
-border:4px white solid;
-}
-.invi4{
-height:100px;
-border:4px white solid;
-}
-.bonus2{
-background-color:lightpink;
-height:100px;
-border:4px white solid;
-}
-.invi5{
-height:100px;
-border:4px white solid;
-}
-.invi6{
-height:100px;
-border:4px white solid;
-}
-.bonus4{
-background-color:lightpink;
+.D{
+background-color:#FF9900;
 height:100px;
 border:4px white solid;
 }
 .footer{
+background-color: lime;
 height:50px;
-background-color:orange;
 border:4px white solid;
 }
 
