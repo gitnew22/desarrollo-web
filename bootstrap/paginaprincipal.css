@@ -1,0 +1,17 @@
+﻿.container{
+border:double 10px silver;
+/*border-width:1.01rem 1.01rem 1.01rem 1.01rem;*/
+}
+.header{
+display:flex;
+align-items:center;
+justify-content:center;
+height:180px;
+
+}
+.tablet{
+	height:400px;
+}
+.foot{
+	height:210px;
+}
