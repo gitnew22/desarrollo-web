@@ -7,11 +7,13 @@ display:flex;
 align-items:center;
 justify-content:center;
 height:180px;
-
 }
 .tablet{
-	height:400px;
 }
 .foot{
-	height:210px;
+	height:500px;
+	
+}
+.foot2{
+background-image:url('fondo.png');
 }
