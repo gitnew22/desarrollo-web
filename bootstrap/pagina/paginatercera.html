@@ -13,15 +13,15 @@
 <link rel="stylesheet" href="paginaprincipal.css" title="Color">
 </head>
 
-		<body>
-			<div class="container-fluid">
-				<div class="row headerc">
+<body>
+	<div class="container">
+		<div class="row headerc">
 				<div class="col-md-12 h1 text-center bg-secondary header">Música</div>
 				</div>
 				<div class="row">
 					<div class="col-12 text-sm-left uno">
 					<nav	class="navbar	navbar-expand-lg	navbar-light	bg-light">
-					<a	class="navbar-brand" href="paginaprincipal.html"><img src="logo982153.jpg" width="70" height="70"/></a>
+					<a	class="navbar-brand" href="paginaprincipal.html"><img src="logo-3.gif" width="60" height="60"/></a>
 					<button	class="navbar-toggler"	type="button"	data-toggle="collapse"
 					data-target="#navbarSupportedContent"	aria-controls="navbarSupportedContent"
 					aria-expanded="false"	aria-label="Toggle	navigation">
@@ -44,7 +44,7 @@
 										<a	class="dropdown-item"	href="#">Pop</a>
 										<a	class="dropdown-item"	href="#">Rock</a>
 										<div class="dropdown-divider"></div>
-										<a	class="dropdown-item"	href="paginatercera.html">Formulario de registro</a>
+										<a	class="dropdown-item"	href="#">Formulario de registro</a>
 								</div>
 						</li>
 						<li	class="nav-item">
@@ -59,67 +59,31 @@
 				</nav>
 				</div>
 				</div>
-				<div class="row">
-					<div class="d-sm-block d-md- col-12 text-center bg-success tablet">
-					-
-					</div>
-				</div>
-				<div class="row">
-					<div class=" col-sm-12 foot2">
-				<table class="table table-striped table-borderless table-hover">
-					<tr>
-						<th class="table-primary"><a href="#">Clasica</a></th>
-						<td class="table-danger"></td>
-						<td></td>
-					</tr>
-					<tr>
-						<th class="table-secondary"><a href="#">Folck</a></th>
-						<td>.-----</td>
-						<td>.--------</td>
-					</tr>
-					<tr>
-						<th class="table-success"><a href="#">Pop</a></th>
-						<td >.-----------------</td>
-						<td>----------------.</td>
-					</tr>
-					<tr>
-				<th class="table-warning"><a href="#">Disco</a></th>
-				<td>.</td>
-				<td >.</td>
-			</tr>
-			<tr>
-				<th class="table-info"><a href="#">Dance</a></th>
-				<td >.</td>
-				<td>.</td>
-			</tr>
-			<tr>
-				<th class="table-primary"><a href="#">Jazz</a></th>
-				<td>.---------------------</td>
-				<td >----------------.</td>
-			</tr>
-			<tr>
-				<th class="table-dark"><a href="#">Rock</a></th>
-				<td>.</td>
-				<td >.-------------</td>
-			</tr>
-			<tr>
-				<th class="table-secondary"><a href="#">Flamenco</a></th>
-				<td>.-----</td>
-				<td>.--------</td>
-			</tr>
 
-			<tr>
-				<th class="table-success"><a href="#">Tecno</a></th>
-				<td class="table-success"></td>
-				<td >.....................</td>
-				<td>................................</td>
-			</tr>
+		
+		<form action="" method="get">
+			<h2>Formulario de registro</h2>
+			 Nombre: <input type="text" maxlength="50" name="nombre" /><br/><br/>
+			 Apellidos: <input type="text" maxlength="50" name="apellidos" /><br/><br/>
+			 Sexo:  
+			 <input type="radio" name="sexo" value="hombre" checked="checked"/>Hombre  
+			 <input type="radio" name="sexo" value="mujer"/>Mujer<br/><br/>
+			 correo: <input type="text" name="email" /><br/><br/>
+			 Población
+			<select name="Población">
+			<option value="1">Alicante</option>
+			<option value="2">Madrid</option>
+			<option value="3">Sevilla</option>
+			<option value="4">Santander</option>
+			</select><br/><br/>
+			Descripción<br/><textarea rows="9" cols="26" name="texto"></textarea><br/><br/>
+			 <input type="checkbox" name="" checked="checked"/>Deseo recibir información sobre novedades y ofertas<br/><br/> 
+			  <input type="radio" name=""/>Declaro haber leido y aceptar las condiciones generales del programa
+			y la normativa sobre protección de datos<br/><br/>
+			<input type="submit" value="Enviar"/>
+		</form>
 
-				</table>
-					</div>
-				</div>
-			</div>
-
+	</div>
 </body>
 
 </html>

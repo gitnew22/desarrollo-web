@@ -10,38 +10,79 @@
 <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<link rel="stylesheet" href="paginaprincipal.css" title="Color">
 </head>
 
 <body>
 	<div class="container">
-		<div>
-			<ul	class="nav	nav-tabs justify-content-between">
-					<a class="nav-brand"href="#">
-						<img src="logo-3.gif" width="60" height="60"	alt="">
-					</a>
-				<li	class="nav-item h2">
-					<a	class="nav-link" href="paginaprincipal.html">Principal</a>
-				</li>
-				<li	class="nav-item h2">
-					<a	class="nav-link" href="paginaprimera.html">Primera</a>
-				</li>
-				<li	class="nav-item h2">
-					<a	class="nav-link" href="paginasegunda.html">Segunda</a>
-				</li>
-				<li	class="nav-item h2">
-					<a	class="nav-link" href="paginatercera.html">tercera</a>
-				</li>
-				<li>
-				<input	class="form-control	mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-				<button	class="btn	btn-outline-success	my-2 my-sm-0" type="submit">Buscar</button>
-				</li>
+		<div class="row headerc">
+				<div class="col-md-12 h1 text-center bg-secondary header">Música</div>
+				</div>
+				<div class="row">
+					<div class="col-12 text-sm-left uno">
+					<nav	class="navbar	navbar-expand-lg	navbar-light	bg-light">
+					<a	class="navbar-brand" href="paginaprincipal.html"><img src="pagina/logo982153.jpg" width="70" height="70"/></a>
+					<button	class="navbar-toggler"	type="button"	data-toggle="collapse"
+					data-target="#navbarSupportedContent"	aria-controls="navbarSupportedContent"
+					aria-expanded="false"	aria-label="Toggle	navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse	navbar-collapse"	id="navbarSupportedContent">
+					<ul	class="navbar-nav	mr-auto">
+						<li	class="nav-item	active">
+							<a	class="nav-link" href="paginaprimera.html">Los mejores productos	<span	class="sr-only">(current)</span></a>
+						</li>
+						<li	class="nav-item active">
+							<a	class="nav-link" href="paginasegunda.html">Noticias</a>
+						</li>
+						<li	class="nav-item	dropdown">
+							<a	class="nav-link	dropdown-toggle" href="#" id="navbarDropdown"	role="button"
+								data-toggle="dropdown"	aria-haspopup="true" aria-expanded="false">
+										Guías
+							</a>
+								<div	class="dropdown-menu"	aria-labelledby="navbarDropdown">
+										<a	class="dropdown-item"	href="#">Pop</a>
+										<a	class="dropdown-item"	href="#">Rock</a>
+										<div class="dropdown-divider"></div>
+										<a	class="dropdown-item"	href="pagina/paginatercera.html">Formulario de registro</a>
+								</div>
+						</li>
+						<li	class="nav-item">
+							<a class="nav-link" href="#">Ofertas</a>
+						</li>
+				</ul>
+				<form	class="form-inline	my-2	my-lg-0">
+						<input	class="form-control	mr-sm-2" type="search" placeholder="Search"	aria-label="Search">
+						<button	class="btn	btn-outline-success	my-2 my-sm-0" type="submit">Search</button>
+				</form>
+				</div>
+				</nav>
+				</div>
+				</div>
 
-			</ul>
-		</div>
-	</div>
-	<div>
-	
+		
+		<form action="" method="get">
+			<h2>Formulario de registro</h2>
+			 Nombre: <input type="text" maxlength="50" name="nombre" /><br/><br/>
+			 Apellidos: <input type="text" maxlength="50" name="apellidos" /><br/><br/>
+			 Sexo:  
+			 <input type="radio" name="sexo" value="hombre" checked="checked"/>Hombre  
+			 <input type="radio" name="sexo" value="mujer"/>Mujer<br/><br/>
+			 correo: <input type="text" name="email" /><br/><br/>
+			 Población
+			<select name="Población">
+			<option value="1">Alicante</option>
+			<option value="2">Madrid</option>
+			<option value="3">Sevilla</option>
+			<option value="4">Santander</option>
+			</select><br/><br/>
+			Descripción<br/><textarea rows="9" cols="26" name="texto"></textarea><br/><br/>
+			 <input type="checkbox" name="" checked="checked"/> Deseo recibir información sobre novedades y ofertas<br/><br/> 
+			  <input type="radio" name=""/> Declaro haber leido y aceptar las condiciones generales del programa
+			y la normativa sobre protección de datos<br/><br/>
+			<input type="submit" value="Enviar"/>
+		</form>
+
 	</div>
 </body>
 
