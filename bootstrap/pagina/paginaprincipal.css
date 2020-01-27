@@ -6,10 +6,18 @@ border-width:1.01rem 1.01rem 1.01rem 1.01rem;*/
 display:flex;
 align-items:center;
 justify-content:center;
-height:180px;
+/*height:180px;*/
+font-family: fantasy;
+letter-spacing:3px;
+word-spacing:4px;
+font-size:50px;
 }
 .tablet{
-/*height:400px;*/
+color:orange;
+font-family: "Sitka Text";
+letter-spacing:2px;
+word-spacing:4px;
+
 }
 .foot{
 	height:500px;
@@ -21,7 +29,22 @@ background-image:url('fondo.png');
 .regilla{
 	border:2px black dashed;
 	height:100px;
+	padding-left:200px;
 }
 .regilla2{
 	border:2px black dotted;
+	
+}
+.electro{
+	background-color:#A26BAA;
+}
+.rumba{
+	background-color:#E2CDE0;
+}
+.engancha{
+	color:#7928C1;
+	font-size: 50px;
+}
+.a{
+	margin-bottom:10px;
 }
