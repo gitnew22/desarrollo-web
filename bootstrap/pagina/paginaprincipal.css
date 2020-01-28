@@ -48,3 +48,25 @@ background-image:url('fondo.png');
 .a{
 	margin-bottom:10px;
 }
+.radio{
+	margin-left:20px;
+}
+.envio{
+	margin-left:20px;
+}
+.descrip{
+	margin-left:15px;
+}
+.formu{
+	background-image:url('fondo.png');
+	color:#139AFB;
+}
+.pobla{
+	margin-left:20px;
+}
+.deseo{
+	margin-left:20px;
+}
+.declaro{
+	padding-left:30px;
+}

@@ -14,13 +14,13 @@
 </head>
 
 <body>
-	<div class="container">
-		<div class="row headerc">
+	<div class="container-fluid">
+			<div class="row headerc">
 				<div class="col-md-12 h1 text-center bg-secondary header">Música</div>
-				</div>
-				<div class="row">
-					<div class="col-12 text-sm-left uno">
-					<nav	class="navbar	navbar-expand-lg	navbar-light	bg-light">
+			</div>
+			<div class="row">
+				<div class="col-12 text-sm-left uno">
+				<nav	class="navbar	navbar-expand-lg	navbar-light	bg-light">
 					<a	class="navbar-brand" href="paginaprincipal.html"><img src="logo982153.jpg" width="60" height="60"/></a>
 					<button	class="navbar-toggler"	type="button"	data-toggle="collapse"
 					data-target="#navbarSupportedContent"	aria-controls="navbarSupportedContent"
@@ -28,40 +28,40 @@
 					<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse	navbar-collapse"	id="navbarSupportedContent">
-					<ul	class="navbar-nav	mr-auto">
-						<li	class="nav-item	active">
-							<a	class="nav-link" href="paginaprimera.html">Los mejores productos	<span	class="sr-only">(current)</span></a>
-						</li>
-						<li	class="nav-item active">
-							<a	class="nav-link" href="paginasegunda.html">Noticias</a>
-						</li>
-						<li	class="nav-item	dropdown">
-							<a	class="nav-link	dropdown-toggle" href="#" id="navbarDropdown"	role="button"
+						<ul	class="navbar-nav	mr-auto">
+							<li	class="nav-item	active">
+								<a	class="nav-link" href="paginaprimera.html">Los mejores productos	<span	class="sr-only">(current)</span></a>
+							</li>
+							<li	class="nav-item active">
+								<a	class="nav-link" href="paginasegunda.html">Noticias</a>
+							</li>
+							<li	class="nav-item	dropdown">
+								<a	class="nav-link	dropdown-toggle" href="#" id="navbarDropdown"	role="button"
 								data-toggle="dropdown"	aria-haspopup="true" aria-expanded="false">
 										Guías
-							</a>
-								<div	class="dropdown-menu"	aria-labelledby="navbarDropdown">
+								</a>
+									<div	class="dropdown-menu"	aria-labelledby="navbarDropdown">
 										<a	class="dropdown-item"	href="#">Pop</a>
 										<a	class="dropdown-item"	href="#">Rock</a>
 										<div class="dropdown-divider"></div>
 										<a	class="dropdown-item"	href="#">Formulario de registro</a>
-								</div>
-						</li>
-						<li	class="nav-item">
-							<a class="nav-link" href="#">Ofertas</a>
-						</li>
-				</ul>
-				<form	class="form-inline	my-2	my-lg-0">
-						<input	class="form-control	mr-sm-2" type="search" placeholder="Search"	aria-label="Search">
-						<button	class="btn	btn-outline-success	my-2 my-sm-0" type="submit">Search</button>
-				</form>
-				</div>
-				</nav>
-				</div>
+									</div>
+							</li>
+							<li	class="nav-item">
+								<a class="nav-link" href="#">Ofertas</a>
+							</li>
+						</ul>
+						<form	class="form-inline	my-2 my-lg-0">
+							<input	class="form-control	mr-sm-2" type="search" placeholder="Search"	aria-label="Search">
+							<button	class="btn	btn-outline-success	my-2 my-sm-0" type="submit">Search</button>
+						</form>
+						</div>
+					</nav>
+					</div>
 				</div>
 
 		
-		<form action="" method="get">
+		<form action="" method="get" class="formu">
 			<h2>Formulario de registro</h2>
 			 	<div class="row">
 			 		<div class="col-12 col-md-4 a">Nombre:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<input type="text" maxlength="50" name="nombre"/></div>
@@ -69,25 +69,30 @@
 			 		<div class="col-12 col-md-4 a">2º Apellido: <input type="text" maxlength="50" name="apellidos"/></div>
 			 	</div>
 			 	<div class="row space-between">
-			 		<div class="col-6 col-md-3"><br/>Sexo:&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="sexo" value="hombre" checked="checked"/>Hombre</div> 
+			 		&nbsp;&nbsp;<div class="col-6 col-md-2"><br/>Sexo:&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="sexo" value="hombre" checked="checked"/>Hombre</div> 
 			 		<div class="col-6 col-md-2"><br/><input type="radio" name="sexo" value="mujer"/>Mujer</div>		
-			 		<div class="col-6 col-md-4"><br/>correo: <input type="text" name="email"/></div>
-			 	 	<div class="col-6 col-md-3"><br/>Población: <select name="Población"></div>
+			 		<div class="col-12 col-md-4"><br/>&nbsp;&nbsp; correo: <input type="text" name="email"/></div>
+			 	 	<div class="col-12 col-md-3 pobla"><br/>Población:&nbsp;<select name="Población"></div>
 			 	</div>
+			 	<div>
 			 		<option value="1">Alicante</option>
 					<option value="2">Madrid</option>
 					<option value="3">Sevilla</option>
 					<option value="4">Santander</option>
 					</select><br/><br/>
 				</div>
-				<div class="row">	
-					<div class="col-12">Descripción<br/><textarea class="col-10" rows="" cols="100" name="texto"></textarea><br/><br/></div>
+				<div class="row descrip">	
+					<div class="col-12">Descripción<br/><br/><textarea class="col-35" rows="" cols="60" name="texto"></textarea><br/><br/></div>
+				</div>
 				<div class="row">
-			 		 <div class="col-12 col-md-4"><input type="checkbox" name="" checked="checked"/>Deseo recibir información sobre novedades y ofertas</div> 
-			  		 <div class="col-12 col-md-4"><input type="radio" name=""/>Declaro haber leido y aceptar las condiciones generales del programa
-					y la normativa sobre protección de datos</div>
-				</div>		
-					<input type="submit" value="Enviar"/>
+			 		 <div class="col-12 col-md-6 deseo">&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="" checked="checked"/>
+			 		 Deseo recibir información sobre novedades y ofertas</div><br/><br/> 
+			  		 <div class=" declaro col-12 col-md-6 radio "><input type="radio" name=""/> Declaro haber leido y aceptar las condiciones generales del programa
+					y la normativa sobre protección de datos<br/><br/></div>
+				</div>
+				<div class="row envio">		
+					<div class="col-12"><br/><input type="submit" value="        Enviar        "/></div>
+				</div><br/><br/><br/><br/>
 		</form>
 
 	</div>
