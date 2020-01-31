@@ -4,55 +4,59 @@
 	/*justify-content:space-between;*/
 	/*flex-direction:column;
 }*/
-/*.a{
+.a{
 	width:50px;
 	height:50px;
 	background-color: maroon;
 	border-radius:50%;
 	animation-name:rotabox;/*el nombre del @keyframes*/
-	/*animation-duration:1.5s;
+	animation-duration:5.5s;
 	animation-iteration-count:infinite;/*numero de veces que se ejecuta*/
-	/*animation-direction: alternate;/*va y vuelve*/
-	/*animation-timing-function:ease-out;/*empieza rapido y acaba lento*/
-	/*margin-top:100px;
-}*/
-.b{	
+	animation-direction: alternate;/*va y vuelve*/
+	animation-timing-function:ease-out;/*empieza rapido y acaba lento*/
+	margin-top:50px;
+}
+/*.b{	
 	/*align-items:center;*/
 
-	width:400px;
+	/*width:400px;
 	height:400px;
 	background-color: orange;
 	border-radius:100%;
 	animation-name:movibox;/*el nombre del @keyframes*/
-	animation-duration:3s;
+	/*animation-duration:3s;
 	animation-iteration-count:infinite;/*numero de veces que se ejecuta*/
-	animation-direction: alternate;/*va y vuelve*/
+	/*animation-direction: alternate;/*va y vuelve*/
 	/*animation-timing-function:linear;/*empieza rapido y acaba lento*/
 	/*margin-top:200px;
-	margin-left:10px;*/
-	
-}
-@keyframes movibox{
+	margin-left:10px;
+	}
+	@keyframes movibox{
   0%   {transform:translate(850px,0px);}
   25%  {transform:translate(0px,0px); background-color:orange;}
   50%  {transform:translate(850px, 0px);}
   75%  {transform:translate(0px,0px); background-color:yellow;}
   100% {transform:translate(850px, 0px);background-color:orange;}
-}
+}*/
 
-/*@keyframes rotabox{
+@keyframes rotabox{
 	from{
 	width:50px;
 	height:50px;
 	background-color: maroon;
 	border-radius:50%;
+	
 	}
 	to{
-	background:yellow;
+	margin:200px 0 0 100px;
+	width:100px;
+	height:100px;
+
+	/*background:yellow;*/
 	background-color:orange;
 	border-radius:0px;
-	transform:scale(4,4);/*hace escala desde el centro del div*/
+	transform:scale(3,4);/*hace escala desde el centro del div*/
 	}
 	
-}*/
+}
 

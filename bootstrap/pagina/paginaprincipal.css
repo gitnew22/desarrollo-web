@@ -1,6 +1,5 @@
-﻿.container{
-/*border:double 10px silver;
-border-width:1.01rem 1.01rem 1.01rem 1.01rem;*/
+﻿.container-fluid{
+background-color:black;
 }
 .header{
 display:flex;
@@ -57,10 +56,25 @@ background-image:url('fondo.png');
 .descrip{
 	margin-left:15px;
 }
-.formu{
-	background-image:url('fondo.png');
-	color:#139AFB;
+.form{
+
+background-image:url('fondo.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+color:#139AFB;
+
 }
+
+.formu {
+position: absolute;
+  /*right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;*/
+  }
 .pobla{
 	margin-left:20px;
 }
@@ -69,4 +83,122 @@ background-image:url('fondo.png');
 }
 .declaro{
 	padding-left:30px;
+	}
+
+
+@keyframes changeColor {
+  0% {
+  background-color:black;       /* Primer fotograma */
+  }
+   5% {
+  background: url('beyonce._V1_.jpg') no-repeat;        
+  }
+	 10% {
+  background: url('Bob_MarleyFrontal.jpg') no-repeat;         
+  }
+ 	15% {
+  background: url('depechmode5dce.jpg') no-repeat;        
+  }
+	 20% {
+  background: url('descarga.jfif') no-repeat;       
+  }
+	 25% {
+  background: url('fuego (1).jpg') no-repeat;         
+  }
+	 30% {
+  background: url('images (1).jfif') no-repeat;       
+  }
+	 35% {
+  background: url('images.jfif') no-repeat;       
+  }
+	 40% {
+  background: url('india_martinez.jpg') no-repeat;        
+  }
+	 45% {
+  background: url('iron20maiden20sanctuary.jpg') no-repeat;       
+  }
+	 50% {
+  background: url('jimmy-edgar.jpg') no-repeat;       
+  }
+	 55% {
+  background: url('lisa-6.jpg') no-repeat;        
+  }
+	 60% {
+  background: url('mgk-general-admission-1024x1024.jpg') no-repeat;    
+  }
+	 65% {
+  background: url('police84.jpg') no-repeat;         
+  }
+	 70% {
+  background: url('rosalia_1000.jpg') no-repeat;       
+  }
+	 75% {
+  background: url('santana-santana.png') no-repeat;       
+  }
+	 80% {
+  background: url('SOY CAMINANTE.JPG') no-repeat;        
+  }
+	 85% {
+  background: url('supertramp.jpg') no-repeat;         
+  }
+
+  90% {
+    background: url('the-beatles-por-iain-macmillan-1516705504.jpg') no-repeat;     
+    }
+  95% {
+    background: url('andy-warhol-4.jpg') no-repeat;
+    }
+  100% {
+    background:url('trompetax570.jpg') no-repeat;       /* Último fotograma */
+  }
 }
+
+.anim {
+  margin:auto auto;
+  width: 500px;
+  height:500px ;
+  animation: changeColor 37s ease 0s infinite;  /* Relaciona con @keyframes */
+}}
+
+
+
+.ab{
+	margin-left: px;
+	width:500px;
+	height:500px;
+	background-color:blue;
+	border-radius:50%;
+	animation-name:rotabox;/*el nombre del @keyframes*/
+	animation-duration:5.5s;
+	animation-iteration-count:infinite;/*numero de veces que se ejecuta*/
+	animation-direction: alternate;/*va y vuelve*/
+	animation-timing-function:ease-out;/*empieza rapido y acaba lento*/
+}
+
+
+
+@keyframes rotabox{
+	from{
+	width:500px;
+	height:500px;
+	background-color: maroon;
+	border-radius:50%;
+	
+	}
+	to{
+	margin:200px 0 0 100px;
+	width:500px;
+	height:500px;
+
+	/*background:yellow;*/
+	background-color:orange;
+	border-radius:0px;
+	transform:scale(3,4);/*hace escala desde el centro del div*/
+	}
+}	
+	
+	.responsive{
+	width:15.9%;
+	height:auto;
+	}
+

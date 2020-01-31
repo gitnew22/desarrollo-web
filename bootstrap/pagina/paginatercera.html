@@ -61,7 +61,8 @@
 				</div>
 
 		
-		<form action="" method="get" class="formu">
+		<div class="formu-bg" >			
+			<form action="" method="get" class="formu">
 			<h2>Formulario de registro</h2>
 			 	<div class="row">
 			 		<div class="col-12 col-md-4 a">Nombre:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<input type="text" maxlength="50" name="nombre"/></div>
@@ -72,14 +73,15 @@
 			 		&nbsp;&nbsp;<div class="col-6 col-md-2"><br/>Sexo:&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="sexo" value="hombre" checked="checked"/>Hombre</div> 
 			 		<div class="col-6 col-md-2"><br/><input type="radio" name="sexo" value="mujer"/>Mujer</div>		
 			 		<div class="col-12 col-md-4"><br/>&nbsp;&nbsp; correo: <input type="text" name="email"/></div>
-			 	 	<div class="col-12 col-md-3 pobla"><br/>Población:&nbsp;<select name="Población"></div>
+			 	 	<div class="col-12 col-md-3 pobla"><br/>Población:&nbsp;</div>
 			 	</div>
 			 	<div>
+			 	<select name="Población">
 			 		<option value="1">Alicante</option>
 					<option value="2">Madrid</option>
 					<option value="3">Sevilla</option>
 					<option value="4">Santander</option>
-					</select><br/><br/>
+				</select><br/><br/>
 				</div>
 				<div class="row descrip">	
 					<div class="col-12">Descripción<br/><br/><textarea class="col-35" rows="" cols="60" name="texto"></textarea><br/><br/></div>
@@ -93,7 +95,8 @@
 				<div class="row envio">		
 					<div class="col-12"><br/><input type="submit" value="        Enviar        "/></div>
 				</div><br/><br/><br/><br/>
-		</form>
+			</form>
+		</div>
 
 	</div>
 </body>
