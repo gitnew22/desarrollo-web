@@ -33,4 +33,22 @@ SELECT p.nombre, p.ciudad, c.ciudad
   SELECT p.nombre persona, s.supervisor FROM persona p JOIN supervisa s ON p.nombre= s.persona; 
 /* 16 listarme el nombre de la persona,el nombre de su supervisor y las ciudades donde residen
   cada uno de ellos*/
-  SELECT * FROM persona p JOIN supervisa s
+  SELECT p.nombre, s.supervisor, p.ciudad ciudaddepersona, p1.ciudad ciudaddesupervisor 
+  FROM persona p JOIN supervisa s ON p.nombre= s.persona 
+  JOIN persona p1 ON p1.nombre= s.supervisor; 
+  /* 17 indicarme el numero de ciudades distintas que hay en la tabla compañia*/ 
+  SELECT DISTINCT COUNT( c.ciudad) FROM compañia c;
+  /* 18 indicarme el numero de ciudades distintas que hay en la tabla personas*/
+  SELECT DISTINCT COUNT(p.ciudad) FROM persona p;
+  /* 19 indicarme el nombre de las personas que trabajan en fagor*/
+  SELECT t.persona FROM trabaja t WHERE t.compañia='fagor';
+  /* 20 indicarme el nombre de las personas que no trabajan en fagor*/ 
+  SELECT t.persona FROM trabaja t WHERE t.compañia!='fagor'; 
+  /* 21 indicarme el numero de personas que trabajan para indra*/
+  SELECT COUNT(*) FROM trabaja t WHERE t.compañia='indra'; 
+  /* 22 indicarme el numero de personas que trabajan para fagor o para indra*/
+  SELECT t.persona, t.compañia FROM trabaja t WHERE t.compañia='fagor' OR t.compañia='indra';
+  /* 23 listar la poblacion donde vive cada persona, sus salario, su nombre y la compañia para 
+    la que trabaja. ordenar la salida por nombre de la persona y por salario de forma descendente*/
+  SELECT p.ciudad, t.salario, p.nombre, t.compañia FROM ciudad c JOIN  persona p ON c.nombre= p.ciudad  LEFT JOIN trabaja t
+  ON p.nombre= t.persona GROUP BY p.nombre ORDER BY p.nombre AND t.salario DESC;   
