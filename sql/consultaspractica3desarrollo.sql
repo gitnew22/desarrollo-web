@@ -89,3 +89,34 @@ SELECT COUNT( e.emp_no), e.dept_no FROM emple e GROUP BY e.dept_no;
      
      SELECT  FROM ( SELECT MAX( c1.nmedicos) maxmedicos FROM 
       (SELECT COUNT(*) nmedicos, m.especialidad FROM medicos m GROUP BY m.especialidad)c1)c2;
+    /* 23 cual es el nombre del hospital que tiene mayor numero de plazas*/
+
+      SELECT MAX(h.num_plazas) FROM hospitales h;
+      SELECT h.nombre, h.num_plazas FROM hospitales h WHERE h.num_plazas=(SELECT MAX(h.num_plazas) FROM hospitales h);
+
+    /* 24 visualizar las diferentes estanterias de la tabla herramientas ordenadas descendentemente por estanteria*/
+      SELECT DISTINCT h.estanteria FROM herramientas h ORDER BY h.estanteria DESC;
+    /* 25 averiguar cuantas unidades tiene cada estanteria*/    
+      SELECT h.estanteria,SUM(h.unidades) FROM herramientas h GROUP BY h.estanteria ; 
+    /* 26 visualizar las estanterias que tengan mas de 15 unidades*/
+      SELECT SUM( h.unidades), h.estanteria FROM herramientas h GROUP BY h.estanteria HAVING SUM(h.unidades)>15;
+    /* 27 cual es la estanteria que tiene mas unidades*/
+        SELECT h.estanteria FROM herramientas h GROUP BY h.estanteria HAVING SUM(h.unidades)=( SELECT MAX(c1.totalUnidades) maxUnidades FROM 
+        (SELECT h.estanteria,SUM(h.unidades) totalUnidades FROM herramientas h GROUP BY h.estanteria) c1) ;
+    /* 28 a partir de las tablas emple y depart mostrar los datos del departamento que no tiene ningun empleado*/
+      SELECT d.dnombre, d.dept_no, d.loc  FROM depart d LEFT JOIN emple e ON d.dept_no = e.dept_no WHERE e.emp_no IS NULL; 
+    /* 29 mostrar el numero de empleados de cada departamento. en la salida se debe mostrar tambien los departamentos que no
+      tienen ningun empleado*/
+      SELECT e1.dept_no, COUNT(*) FROM emple e1 GROUP BY e1.dept_no; 
+      SELECT *  FROM depart d LEFT JOIN (SELECT e1.dept_no, COUNT(*) FROM emple e1 GROUP BY e1.dept_no) c1   ON c1.dept_no = d.dept_no;
+    /* 30 obtener la suma de salarios de cada departamento, mostrando las columnas dep_no, suma de salarios y dnombre.
+      en el resultado tambien se deben mostrar los departamentos que no tienen asignados empleados*/
+      SELECT e.dept_no, SUM( e.salario) sumasal FROM emple e GROUP BY e.dept_no;  
+      SELECT d.dept_no, c1.sumasal, d.dnombre FROM depart d LEFT JOIN ( SELECT e.dept_no, SUM( e.salario) sumasal FROM emple e GROUP BY e.dept_no)c1 ON c1.dept_no= d.dept_no; 
+    /* 31 utilizar la funcion ifnull en la consulta anterior para que en el caso de que un departamento no tenga empleados, aparezca
+      como suma de salarios el valor 0*/
+       SELECT d.dept_no, IFNULL( c1.sumasal,0) , d.dnombre FROM depart d LEFT JOIN ( SELECT e.dept_no, SUM( e.salario) sumasal FROM emple e GROUP BY e.dept_no)c1 ON c1.dept_no= d.dept_no;
+    /* 32 obtener el numero de medicos que pertenecen a cada hospital, mostrando las colimnas cod_hospital, nombre y numero de medicos.
+      em el resultado deben aparecer tambien los datos de los hospitales que no tienen medicos*/
+      SELECT m.cod_hospital, COUNT(*) nmedicos FROM medicos m GROUP BY m.cod_hospital;
+      SELECT hospitales.cod_hospital, nombre, m1.nmedicos FROM hospitales LEFT JOIN (SELECT m.cod_hospital, COUNT(*) nmedicos FROM medicos m GROUP BY m.cod_hospital) m1 ON hospitales.cod_hospital = m1.cod_hospital;   
